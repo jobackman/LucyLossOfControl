@@ -7,6 +7,6 @@
 ## SavedVariablesPerCharacter: characterSettings
 
 ## X-License: Public Domain
-## X-Category: Unit Frames
+## X-Category: Combat
 
 LucyLossOfControl.lua
