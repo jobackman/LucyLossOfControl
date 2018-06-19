@@ -9,3 +9,10 @@ It:
 - Hides the duration text
 - Repositions the spell icon to the center of the screen
 - Repositions the spell effect name to be centered below the icon
+
+
+# Before:
+![before](https://user-images.githubusercontent.com/732505/41587806-5f37afd8-73b0-11e8-979d-dbfb9c78e263.jpg)
+
+# After
+![after](https://user-images.githubusercontent.com/732505/41587261-0e822d8a-73af-11e8-978d-d47ebb98f6ce.png)
