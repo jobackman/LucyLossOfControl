@@ -1,4 +1,4 @@
-## Interface: 70000
+## Interface: 80000
 ## Title: LucyLossOfControl
 ## Notes: Prettifies Blizzard's standard loss of control UI Frame
 ## Version: 0.0.1
