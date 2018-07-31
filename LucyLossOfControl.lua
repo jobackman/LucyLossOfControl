@@ -9,6 +9,7 @@ local background = select(1,LossOfControlFrame:GetRegions());
 local icon = select(4,LossOfControlFrame:GetRegions());
 local topRedLine = select(2,LossOfControlFrame:GetRegions());
 local bottomRedLine = select(3,LossOfControlFrame:GetRegions());
+local timeLeft = LossOfControlFrame.TimeLeft;
 
 
 -- Move the icon around (if you want to center the frame based on the icon and not the countdown and red border)
@@ -32,7 +33,10 @@ bottomRedLine:SetAlpha(0);
 -- select(5,LossOfControlFrame:GetRegions()):SetPoint("TOP",select(4,LossOfControlFrame:GetRegions()),"BOTTOM")
 effectText:ClearAllPoints();
 effectText:SetPoint("TOP", icon, "BOTTOM");
+effectText:SetScale(0.8);
 
 -- Moves the duration text to be centered under the icon
-LossOfControlFrame.TimeLeft:SetAlpha(0);
-LossOfControlFrame.TimeLeft:SetPoint("TOP", effectText, "BOTTOM")
+timeLeft:ClearAllPoints();
+timeLeft:SetAlpha(0);
+-- timeLeft:SetPoint("TOP", effectText, "BOTTOM");
+-- timeLeft:SetScale(0.8);
